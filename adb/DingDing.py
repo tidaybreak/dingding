@@ -30,6 +30,7 @@ sender = config.get("email","sender")
 psw = config.get("email","psw")
 smtp = config.get("email","smtp")
 receive = config.get("email","receive")
+warnmail = config.get("email","warnmail")
 screen_dir = config.get("screen","screen_dir")
 
 
@@ -203,6 +204,27 @@ class dingding:
             print(e)
 
 
+def sendNoteEmail(to, Subject,content):
+    """
+    qq邮箱 需要先登录网页版，开启SMTP服务。获取授权码，
+    :return:
+    """
+    message = MIMEMultipart('related')
+    message['Subject'] = Subject
+    message['From'] = Header("打卡日志", 'utf-8')
+    message['To'] = to
+    content = MIMEText('<html><body>' + content + '</body></html>', 'html', 'utf-8')
+    message.attach(content)
+
+    try:
+        server = smtplib.SMTP_SSL(smtp, 465)
+        server.login(sender, psw)
+        server.sendmail(sender, to, message.as_string())
+        server.quit()
+        print("邮件发送成功")
+    except smtplib.SMTPException as e:
+        print(e)
+            
 # 随机打卡时间段
 def random_minute():
     return random.randint(30,50)
@@ -297,6 +319,10 @@ def start_video(q):
 
 
 if __name__ == "__main__":
+    process = subprocess.check_output('adb devices')
+    if len(process) < 30:
+      sendNoteEmail(warnmail, '钉钉adb失败', '打卡adb有问题，赶快查看下原因~')
+          
     pids = psutil.pids()
     mypid = os.getppid()
     ddpids = []
