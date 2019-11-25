@@ -14,6 +14,7 @@ psw =
 smtp = smtp.126.com
 # recevie  here It could be yourself
 receive = xxxx@qq.com
+warnmail = tidaybreak@163.com
 
 [screen]
 # Screen shot image path (do not include Spaces in the path, in order to save the screen shot sent by the phone, and save it in the email)
