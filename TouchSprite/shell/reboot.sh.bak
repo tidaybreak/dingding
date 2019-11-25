@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+function random()
+{
+    min=$1;
+    max=$2-$1;
+    num=$RANDOM;
+    ((retnum=num%max+min));
+    return $retnum;
+}
+echo $1
+echo random $1 $2

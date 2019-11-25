@@ -1,0 +1,144 @@
+[2019-02-13 16:13:07]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 16:15:05]脚本/sdcard/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 16:29:49]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 16:32:09]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 16:34:04]脚本/sdcard/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 18:23:50]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 18:26:02]脚本/sdcard/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 19:29:04]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 19:30:49]脚本/sdcard/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 19:40:27]脚本/sdcard/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 19:41:12]脚本/sdcard/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 19:56:34]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 19:56:35]错误信息 [string "dd.lua"]:3: module 'mime2' not found:
+	no field package.preload['mime2']
+	no file '/data/data/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.luac'
+	no file '/data/data/com.touchsprite.android/TouchSprite/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2/mime2.lua'
+	no file '/data/data/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/plugin/mime2.so'
+	no file '/data/data/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/plugin/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.so'
+[2019-02-13 19:56:35]  脚本运行报错
+[string "dd.lua"]:3: module 'mime2' not found:
+	no field package.preload['mime2']
+	no file '/data/data/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.luac'
+	no file '/data/data/com.touchsprite.android/TouchSprite/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2/mime2.lua'
+	no file '/data/data/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/plugin/mime2.so'
+	no file '/data/data/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/plugin/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.so'
+[2019-02-13 20:07:07]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:07:14]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:07:14]错误信息 [string "dd.lua"]:3: module 'mime2' not found:
+	no field package.preload['mime2']
+	no file '/data/data/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.luac'
+	no file '/data/data/com.touchsprite.android/TouchSprite/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2/mime2.lua'
+	no file '/data/data/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/plugin/mime2.so'
+	no file '/data/data/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/plugin/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.so'
+[2019-02-13 20:07:14]  脚本运行报错
+[string "dd.lua"]:3: module 'mime2' not found:
+	no field package.preload['mime2']
+	no file '/data/data/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.lua'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.luac'
+	no file '/data/data/com.touchsprite.android/TouchSprite/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.lua'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2/mime2.lua'
+	no file '/data/data/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/tslibs/mime2.so'
+	no file '/data/data/com.touchsprite.android/files/plugin/mime2.so'
+	no file '/data/data/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/plugin/mime2.so'
+	no file '/storage/emulated/0/TouchSprite/lua/mime2.so'
+[2019-02-13 20:07:42]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:07:44]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:10:28]  尝试重新启动服务
+[2019-02-13 20:10:33]  服务启动成功
+[2019-02-13 20:10:36]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:10:46]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:11:58]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:13:49]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:17:11]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:11]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:17:16]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:16]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:17:20]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:21]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:17:23]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:23]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:17:28]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:28]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:17:30]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua开始运行
+[2019-02-13 20:17:30]脚本/storage/emulated/0/TouchSprite/lua/sozereal_temp_test.lua结束运行
+[2019-02-13 20:18:53]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:20:54]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:24:39]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:26:40]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:28:17]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:30:14]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:33:36]  尝试重新启动服务
+[2019-02-13 20:33:46]  服务启动成功
+[2019-02-13 20:33:46]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:35:52]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 20:56:28]  尝试重新启动服务
+[2019-02-13 20:56:36]  服务启动成功
+[2019-02-13 20:56:38]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 20:58:42]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 21:05:24]  尝试重新启动服务
+[2019-02-13 21:05:32]  服务启动成功
+[2019-02-13 21:05:34]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:08:56]  尝试重新启动服务
+[2019-02-13 21:09:02]  服务启动成功
+[2019-02-13 21:09:06]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:10:34]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 21:11:42]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:14:09]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 21:14:12]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:15:20]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 21:17:04]  尝试重新启动服务
+[2019-02-13 21:17:12]  服务启动成功
+[2019-02-13 21:17:14]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:19:28]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-13 21:31:18]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-13 21:32:31]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-14 08:14:05]  尝试重新启动服务
+[2019-02-14 08:14:14]  服务启动成功
+[2019-02-14 08:14:16]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-14 08:16:42]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-14 08:26:56]  尝试重新启动服务
+[2019-02-14 08:27:05]  服务启动成功
+[2019-02-14 08:27:07]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-14 08:29:54]  尝试重新启动服务
+[2019-02-14 08:30:02]  服务启动成功
+[2019-02-14 08:30:04]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-14 08:32:10]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-14 18:36:54]  尝试重新启动服务
+[2019-02-14 18:37:03]  服务启动成功
+[2019-02-14 18:37:05]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-14 18:39:23]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-14 20:02:01]  尝试重新启动服务
+[2019-02-14 20:02:10]  服务启动成功
+[2019-02-14 20:02:12]脚本/storage/emulated/0/TouchSprite/lua/dd.lua开始运行
+[2019-02-14 20:04:17]脚本/storage/emulated/0/TouchSprite/lua/dd.lua结束运行
+[2019-02-15 08:15:16]  尝试重新启动服务
+[2019-02-15 08:15:24]  服务启动成功
