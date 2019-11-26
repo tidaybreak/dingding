@@ -161,7 +161,7 @@ class dingding:
 
     # 截屏>> 发送到电脑 >> 删除手机中保存的截屏
     def screencap(self):
-        os.remove(screen_dir)
+        file_del(screen_dir)
         operation_list = [self.adbscreencap,self.adbpull,self.adbrm_screencap]
         for operation in operation_list:
             process = subprocess.Popen(operation, shell=False,stdout=subprocess.PIPE)
@@ -182,17 +182,20 @@ class dingding:
         message['To'] = receive
         content = MIMEText('<html><body><img src="cid:imageid" alt="imageid"></body></html>', 'html', 'utf-8')
         message.attach(content)
-        file = open(screen_dir, "rb")
-        img_data = file.read()
-        file.close()
-        img = MIMEImage(img_data)
-        img.add_header('Content-ID', 'imageid')
-        message.attach(img)
-        
+
+        if os.path.exists(screen_dir):
+            file = open(screen_dir, "rb")
+            img_data = file.read()
+            file.close()        
+            img = MIMEImage(img_data)
+            img.add_header('Content-ID', 'imageid')
+            message.attach(img)
+            
         filename = "log.mp4"
-        part = MIMEApplication(open(filename,'rb').read())
-        part.add_header('Content-Disposition', 'attachment', filename=filename) 
-        message.attach(part)
+        if os.path.exists(filename):
+            part = MIMEApplication(open(filename,'rb').read())
+            part.add_header('Content-Disposition', 'attachment', filename=filename) 
+            message.attach(part)
         
         try:
             server = smtplib.SMTP_SSL(smtp, 465)
@@ -236,6 +239,10 @@ def random_coord(coord, size):
     scoord[0] += random.randint(0 - size, size)
     scoord[1] += random.randint(0 - size, size)
     return str(scoord[0]) + ' ' + str(scoord[1])
+    
+def file_del(file):
+    if os.path.exists(file):
+        os.remove(file)
 
 # 包装循环函数，传入随机打卡时间点
 def incode_loop(func,minute):
@@ -306,7 +313,7 @@ def is_weekend():
         return True
 
 def start_video(q):
-    os.remove("log.mp4")
+    file_del("log.mp4")
     
     process = subprocess.Popen('adb shell rm /sdcard/log.mp4', shell=False,stdout=subprocess.PIPE)
     process.wait()
@@ -319,10 +326,6 @@ def start_video(q):
 
 
 if __name__ == "__main__":
-    process = subprocess.check_output('adb devices')
-    if len(process) < 30:
-      sendNoteEmail(warnmail, '钉钉adb失败', '打卡adb有问题，赶快查看下原因~')
-          
     pids = psutil.pids()
     mypid = os.getppid()
     ddpids = []
