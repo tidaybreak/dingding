@@ -26,7 +26,7 @@ sender = config.get("email","sender")
 psw = config.get("email","psw")
 smtp = config.get("email","smtp")
 warnmail = config.get("email","warnmail")
-
+ip = config.get("email","ip")
 
 
 def sendNoteEmail(to, Subject,content):
@@ -54,3 +54,14 @@ if __name__ == "__main__":
     process = subprocess.check_output('adb devices')
     if len(process) < 30:
       sendNoteEmail(warnmail, '钉钉adb失败', '打卡adb有问题，赶快查看下原因~')
+
+    backinfo =  os.system('ping -c 1 -w 1 %s'%ip)
+    if backinfo:
+      print('no')
+      sendNoteEmail(warnmail, '钉钉ping不通', '打卡adb没问题，但网络ping不通，赶快查看下原因~')
+      subprocess.check_output('adb reboot')
+    else:
+      iplist = list()
+      iplist.append(ip)
+      print(iplist)
+      
